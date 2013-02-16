@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8">
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 	<string name="fugitives">Fugitivos</string>
 	<string name="captured">Capturados</string>
 	<string name="add">Agregar</string>
-</resources>	
+
+</resources>
+
