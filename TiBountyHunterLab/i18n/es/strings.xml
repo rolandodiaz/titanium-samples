@@ -3,6 +3,7 @@
 	<string name="fugitives">Fugitivos</string>
 	<string name="captured">Capturados</string>
 	<string name="add">Agregar</string>
-
+	<string name="busted">Busted!</string>
+	<string name="still_at_large">Still At Large</string>
 </resources>
 

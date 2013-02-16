@@ -1,10 +1,12 @@
 function ApplicationWindow(/*Boolean*/ _captured) {
 	
 	
+	var AddWindow = require('ui/common/AddWindow');
+	
 	
 	var self = Ti.UI.createWindow({
 		backgroundColor: 'transparent',
-		backgroundImage: 'images/grain.png',
+		backgroundImage: '/images/grain.png',
 		title: (_captured) ? L('captured') : L('fugitives'),
 		barColor: '#6d0a0c',
 		activity : {
@@ -15,11 +17,22 @@ function ApplicationWindow(/*Boolean*/ _captured) {
 				});
 				
 				m1.addEventListener('click', function(e){
-					//abrir en el tab group la ventana de agregar
+					self.containingTab.open(new AddWindow);
 				});
 			}	
 		}
 	});
+	
+	var BountyTable = require('ui/common/BountyTable');
+	var bountyTable = new BountyTable(_captured);
+	
+	bountyTable.addEventListener('click', function(_e){
+		var DetailWindow = require('ui/common/DetailWindow');
+		self.containingTab.open(new DetailWindow(_e.rowData, self.containingTab));
+	});
+	
+	
+	self.add(bountyTable);
 	
 	
 	
