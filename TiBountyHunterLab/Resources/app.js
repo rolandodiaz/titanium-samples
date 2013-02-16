@@ -18,6 +18,8 @@
 	var isTablet = osname == 'ipad' || (osname === 'android' 
 			&& (width > 899 || height > 899));
 	
+	var ApplicationTabGroup = require('');
+	new ApplicationTabGroup().open();
 	
 	
 })();
