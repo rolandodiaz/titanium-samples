@@ -10,7 +10,7 @@ var DetailWindow = function(_bounty, containingTab){
 		barColor :  '#6d0a0c',
 		backgroundColor: 'transparent',
 		backgroundImage: '/images/grain.png',
-		layout: vertical
+		layout: 'vertical' 
 	});
 	
 	win.add(Ti.UI.createLabel({
