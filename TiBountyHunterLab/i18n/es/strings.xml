@@ -2,5 +2,5 @@
 <resources>
 	<string name="fugitives">Fugitivos</string>
 	<string name="captured">Capturados</string>
-	
+	<string name="add">Agregar</string>
 </resources>	
