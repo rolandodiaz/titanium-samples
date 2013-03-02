@@ -1,0 +1,32 @@
+
+
+var BountyTableView = function(/*Boolean*/ _captured){
+	
+	var tv = Ti.UI.createTableView({
+		backgroundColor: 'transparent'
+	});
+	
+	function populateData(){
+		//usando data dummy por ahora...
+		var results = [
+			{title: 'Henry Trujillo', color:'#fff', hasChild:true,
+			captured:_captured},
+			{title: 'Beto Borda', color:'#fff', hasChild:true,
+			captured:_captured},
+			{title: 'Jorge Suarez', color:'#fff', hasChild:true,
+			captured:_captured},		
+			{title: 'Jose Diaz', color:'#fff', hasChild:true,
+			captured:_captured}								
+		];
+		tv.setData(results);
+	};
+	
+	//ejecutarlo para llenar
+	populateData();
+	
+	return tv;
+	
+};
+
+
+module.exports = BountyTableView;
