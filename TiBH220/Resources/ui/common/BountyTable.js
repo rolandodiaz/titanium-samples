@@ -1,32 +1,32 @@
+/*
+	Following the model demonstrated in ui/common/ApplicationTabGroup
+	create a constructor for the bounty tableview component. This module
+	should return an instantiable function (that you'll use with "new").
+	It should accept a boolean property to denote whether this table will
+	list captured or at-large fugitives.
+*/
 
-
-var BountyTableView = function(/*Boolean*/ _captured){
-	
+var BountyTableView = function(/*Boolean*/ _captured) {
 	var tv = Ti.UI.createTableView({
 		backgroundColor: 'transparent'
 	});
-	
-	function populateData(){
-		//usando data dummy por ahora...
+		
+	function populateData() {
+		//use dummy data for now...
 		var results = [
-			{title: 'Henry Trujillo', color:'#fff', hasChild:true,
-			captured:_captured},
-			{title: 'Beto Borda', color:'#fff', hasChild:true,
-			captured:_captured},
-			{title: 'Jorge Suarez', color:'#fff', hasChild:true,
-			captured:_captured},		
-			{title: 'Jose Diaz', color:'#fff', hasChild:true,
-			captured:_captured}								
+			{title:'Jeff Haynie', color:'#fff', hasChild:true, captured:_captured},
+			{title:'Nolan Wright', color:'#fff', hasChild:true, captured:_captured},
+			{title:'Marshall Culpepper', color:'#fff', hasChild:true, captured:_captured},
+			{title:'Don Thorp', color:'#fff', hasChild:true, captured:_captured},
+			{title:'Blain Hamon', color:'#fff', hasChild:true, captured:_captured}
 		];
 		tv.setData(results);
-	};
+	}
 	
-	//ejecutarlo para llenar
+	//run initial query
 	populateData();
 	
 	return tv;
-	
 };
-
 
 module.exports = BountyTableView;

@@ -1,50 +1,46 @@
-
-
-
-var DetailWindow = function (/*object*/ _bounty, 
-	/*tab de referencia */ containingTab){
-		
+Ti.Geolocation.purpose = 'Tracking down criminal scum';
+var DetailWindow = function(/*Object*/ _bounty, /*Tab object reference*/ containingTab) {
+	
 	var win = Ti.UI.createWindow({
-		title: _bounty.title,
+		title:_bounty.title,
 		barColor: '#6d0a0c',
 		backgroundColor: 'transparent',
 		backgroundImage: 'images/grain.png',
-		layout: 'vertical'
+		layout:'vertical'
 	});
-		
+
 	win.add(Ti.UI.createLabel({
-		text: (_bounty.captured) ? L('busted') : L('still_at_large'),
-		top: 10,
-		textAlign: 'center',
+		text:(_bounty.captured) ? L('busted') : L('still_at_large'),
+		top:10,
+		textAlign:'center',
 		font: {
-			fontWeight: 'bold',
-			fontSize: 18
+			fontWeight:'bold',
+			fontSize:18
 		},
 		color: '#fff',
-		height: Ti.UI.SIZE
+		height:Ti.UI.SIZE
 	}));
 	
+
 	
-	if(!_bounty.captured){
+	if (!_bounty.captured) {
 		var captureButton = Ti.UI.createButton({
-			title: L('capture'),
+			title:L('capture'),
 			top:10,
-			height: Ti.UI.SIZE,
-			width: 200
+			height:Ti.UI.SIZE,
+			width:200
 		});
 		win.add(captureButton);
 	}
 	
 	var deleteButton = Ti.UI.createButton({
-		title: L('delete'),
-		top: 10,
-		height: Ti.UI.SIZE,
-		width: 200
+		title:L('delete'),
+		top:10,
+		height:Ti.UI.SIZE,
+		width:200
 	});
-	win.add(deleteButton);	
-	
+	win.add(deleteButton);
 	
 	return win;
 };
-
 module.exports = DetailWindow;
