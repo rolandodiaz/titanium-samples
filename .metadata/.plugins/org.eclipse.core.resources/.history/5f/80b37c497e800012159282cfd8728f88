@@ -1,0 +1,12 @@
+
+
+
+(function(){
+	
+	Ti.API.info('Welcome to TiBountyHounter for ' + 
+		Ti.Platform.osname);
+	
+	
+	
+	
+})();

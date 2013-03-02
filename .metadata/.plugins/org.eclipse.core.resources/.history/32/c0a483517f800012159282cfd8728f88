@@ -1,0 +1,8 @@
+function ApplicationTabGroup() {
+	
+	var self = Ti.UI.createTabGroup();
+	
+	var Window = require('ui/handheld/ApplicationWindow');
+	
+	
+}

@@ -1,0 +1,14 @@
+
+
+var BountyTableView = function(/*Boolean*/ _captured){
+	
+	var tv = Ti.UI.createTableView({
+		backgroundColor: 'transparent'
+	});
+	
+	
+	
+};
+
+
+module.exports = BountyTableView;

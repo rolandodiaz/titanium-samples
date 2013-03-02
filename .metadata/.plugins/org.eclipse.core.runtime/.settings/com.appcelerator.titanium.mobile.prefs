@@ -1,0 +1,8 @@
+ANDROID_SDK_PATH=/Users/josediaz/tools/android-sdk-macosx
+DEFAULT_ANDROID_SCREEN_TYPE=HVGA
+DEFAULT_ANDROID_SDK=Google APIs Android 2.3.3
+DEFAULT_MOBILE_WEB_BROWSER_NAME=Default system web browser
+DEFAULT_MOBILE_WEB_BROWSER_USE_GLOBAL=false
+DEFAULT_MOBILE_WEB_PREVIEW_SERVER_NAME=Built-in server
+eclipse.preferences.version=1
+iphone.cachedProfiles={"timestamp"\:"1339136482000","profiles"\:[{"filepath"\:"/Users/josediaz/Library/MobileDevice/Provisioning Profiles/AF089189-6A53-42E2-99A7-37B86F375308.mobileprovision","name"\:"iOS Team Provisioning Profile\: *","appid"\:"*","uuid"\:"AF089189-6A53-42E2-99A7-37B86F375308","type"\:"development"}],"sdk_ver"\:"3.0.0.GA"}

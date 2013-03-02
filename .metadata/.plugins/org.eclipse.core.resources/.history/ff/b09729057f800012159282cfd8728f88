@@ -1,0 +1,8 @@
+function ApplicationTabGroup() {
+	
+	var self = Ti.UI.createTabGroup();
+	
+	
+	
+	
+}

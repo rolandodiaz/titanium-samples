@@ -1,0 +1,95 @@
+Logger started at: Saturday, March 2, 2013 4:32:00 PM PET
+Component: com.aptana.js.debug.core.v8
+Version: 3.0.0.1349739205
+[32:3.82] Recv: >1362259923032*version<
+[32:3.83] Sent: >32*1362259923032*1*3.0.0.1349739205<
+[32:3.97] Recv: >1362259923033*update<
+[32:3.97] Sent: >13*1362259923033<
+[32:3.98] Recv: >1362259923034*option*stepFiltersEnabled*false<
+[32:3.99] Sent: >50*1362259923034*!unknown option <stepFiltersEnabled><
+[32:3.100] Recv: >1362259923035*option*monitorXHR*true<
+[32:3.100] Sent: >42*1362259923035*!unknown option <monitorXHR><
+[32:3.103] Recv: >1362259923036*option*suspendOnFirstLine*false<
+[32:3.103] Sent: >13*1362259923036<
+[32:3.104] Recv: >1362259923037*option*suspendOnExceptions*false<
+[32:3.264] Sent: >13*1362259923037<
+[32:3.265] Recv: >1362259923038*option*suspendOnErrors*true<
+[32:3.501] Sent: >13*1362259923038<
+[32:3.502] Recv: >1362259923039*option*suspendOnKeywords*true<
+[32:3.502] Sent: >13*1362259923039<
+[32:3.503] Recv: >1362259923040*option*bypassConstructors*false<
+[32:3.503] Sent: >50*1362259923040*!unknown option <bypassConstructors><
+[32:3.503] Recv: >1362259923041*option*stepFiltersEnabled*false<
+[32:3.504] Sent: >50*1362259923041*!unknown option <stepFiltersEnabled><
+[32:3.504] Recv: >1362259923042*detailFormatters<
+[32:3.505] Sent: >13*1362259923042<
+[32:3.507] Recv: >1362259923043*breakpoint*create*app:/ui/common/ApplicationTabGroup.js*17*1*0**1<
+[32:4.833] Sent: >21*1362259923043*created<
+[32:4.833] Recv: >1362259923044*enable<
+[32:4.834] Sent: >13*resumed*start<
+[32:4.834] Sent: >13*1362259923044<
+[32:4.835] Sent: >44*scripts*created*1|ti:/kroll.js|anonymous|1|1<
+[32:4.835] Sent: >45*scripts*created*2|ti:/events.js|anonymous|1|1<
+[32:4.835] Sent: >45*scripts*created*3|ti:/window.js|anonymous|1|1<
+[32:4.836] Sent: >47*scripts*created*4|ti:/tabgroup.js|anonymous|1|1<
+[32:4.836] Sent: >46*scripts*created*5|ti:/webview.js|anonymous|1|1<
+[32:4.836] Sent: >48*scripts*created*6|ti:/bootstrap.js|anonymous|1|1<
+[32:4.836] Sent: >45*scripts*created*7|ti:/module.js|anonymous|1|1<
+[32:4.837] Sent: >46*scripts*created*8|ti:/console.js|anonymous|1|1<
+[32:4.837] Sent: >42*scripts*created*9|ti:/url.js|anonymous|1|1<
+[32:4.838] Sent: >44*scripts*created*10|ti:/path.js|anonymous|1|1<
+[32:4.838] Sent: >42*scripts*created*11|ti:/ui.js|anonymous|1|1<
+[32:4.838] Sent: >48*scripts*created*12|ti:/titanium.js|anonymous|1|1<
+[32:4.838] Sent: >43*scripts*created*13|ti:/tab.js|anonymous|1|1<
+[32:4.838] Sent: >47*scripts*created*14|ti:/invoker.js|anonymous|1|1<
+[32:4.839] Sent: >50*scripts*created*15|ti:/properties.js|anonymous|1|1<
+[32:5.315] Sent: >46*scripts*created*16|app:///app.js|anonymous|1|1<
+[32:6.192] Sent: >72*scripts*created*17|app:///ui/common/ApplicationTabGroup.js|anonymous|1|1<
+[32:6.571] Sent: >72*scripts*created*18|app:///ui/handheld/ApplicationWindow.js|anonymous|1|1<
+[32:7.231] Sent: >63*suspended*breakpoint*app:///ui/common/ApplicationTabGroup.js*18<
+[32:7.236] Recv: >1362259923045*frames<
+[32:7.236] Sent: >180*1362259923045*0|ApplicationTabGroup||app:///ui/common/ApplicationTabGroup.js|18|false|471|19*1|(anonymous function)||app:///app.js|10|false|163|20*2|||app:///app.js|13|false|203|21<
+[32:12.376] Recv: >1362259923046*variables*frame[0]<
+[32:16.556] Sent: >340*1362259923046*this|Object|o|[object Object]*Window|Function|l|[Function]*self|TabGroup|wol|[object TabGroup]*capturedWin|TiBaseWindow|wol|[object TiBaseWindow]*tab2|undefined|wl|undefined*fugitiveWin|TiBaseWindow|wol|[object TiBaseWindow]*tab1|Tab|wol|[object Tab]*persistentObjects|Array|wo|[object Array]*console|Object|wo|[object Object]<
+[32:29.172] Recv: >1362259923047*details*frame[0].fugitiveWin<
+[32:29.177] Sent: >42*1362259923047*result*[object TiBaseWindow]<
+[32:30.566] Recv: >1362259923048*details*frame[0].tab2<
+[32:30.566] Sent: >30*1362259923048*result*undefined<
+[32:31.594] Recv: >1362259923049*details*frame[0].tab1<
+[32:31.595] Sent: >33*1362259923049*result*[object Tab]<
+[32:38.193] Recv: >*stepOver<
+[32:38.195] Sent: >16*resumed*stepOver<
+[32:38.556] Sent: >61*suspended*stepOver*app:///ui/common/ApplicationTabGroup.js*20<
+[32:38.557] Recv: >1362259923050*frames<
+[32:38.557] Sent: >180*1362259923050*0|ApplicationTabGroup||app:///ui/common/ApplicationTabGroup.js|20|false|482|19*1|(anonymous function)||app:///app.js|10|false|163|20*2|||app:///app.js|13|false|203|21<
+[32:38.609] Recv: >1362259923051*variables*frame[0]<
+[32:42.582] Sent: >340*1362259923051*this|Object|o|[object Object]*Window|Function|l|[Function]*self|TabGroup|wol|[object TabGroup]*capturedWin|TiBaseWindow|wol|[object TiBaseWindow]*tab2|undefined|wl|undefined*fugitiveWin|TiBaseWindow|wol|[object TiBaseWindow]*tab1|Tab|wol|[object Tab]*persistentObjects|Array|wo|[object Array]*console|Object|wo|[object Object]<
+[32:42.585] Recv: >1362259923052*variables*frame[0]<
+[32:42.586] Sent: >340*1362259923052*this|Object|o|[object Object]*Window|Function|l|[Function]*self|TabGroup|wol|[object TabGroup]*capturedWin|TiBaseWindow|wol|[object TiBaseWindow]*tab2|undefined|wl|undefined*fugitiveWin|TiBaseWindow|wol|[object TiBaseWindow]*tab1|Tab|wol|[object Tab]*persistentObjects|Array|wo|[object Array]*console|Object|wo|[object Object]<
+[32:45.705] Recv: >*stepOver<
+[32:45.705] Sent: >16*resumed*stepOver<
+[32:46.65] Sent: >61*suspended*stepOver*app:///ui/common/ApplicationTabGroup.js*26<
+[32:46.66] Recv: >1362259923053*frames<
+[32:46.66] Sent: >180*1362259923053*0|ApplicationTabGroup||app:///ui/common/ApplicationTabGroup.js|26|false|623|19*1|(anonymous function)||app:///app.js|10|false|163|20*2|||app:///app.js|13|false|203|21<
+[32:46.84] Recv: >1362259923054*variables*frame[0]<
+[32:50.310] Sent: >338*1362259923054*this|Object|o|[object Object]*Window|Function|l|[Function]*self|TabGroup|wol|[object TabGroup]*capturedWin|TiBaseWindow|wol|[object TiBaseWindow]*tab2|Tab|wol|[object Tab]*fugitiveWin|TiBaseWindow|wol|[object TiBaseWindow]*tab1|Tab|wol|[object Tab]*persistentObjects|Array|wo|[object Array]*console|Object|wo|[object Object]<
+[32:50.312] Recv: >1362259923055*variables*frame[0]<
+[32:50.314] Sent: >338*1362259923055*this|Object|o|[object Object]*Window|Function|l|[Function]*self|TabGroup|wol|[object TabGroup]*capturedWin|TiBaseWindow|wol|[object TiBaseWindow]*tab2|Tab|wol|[object Tab]*fugitiveWin|TiBaseWindow|wol|[object TiBaseWindow]*tab1|Tab|wol|[object Tab]*persistentObjects|Array|wo|[object Array]*console|Object|wo|[object Object]<
+[32:51.478] Recv: >1362259923056*details*frame[0].tab2<
+[32:51.478] Sent: >33*1362259923056*result*[object Tab]<
+[32:52.364] Recv: >1362259923057*details*frame[0].tab2<
+[32:52.369] Sent: >33*1362259923057*result*[object Tab]<
+[32:54.182] Recv: >1362259923058*details*frame[0].tab1<
+[32:54.182] Sent: >33*1362259923058*result*[object Tab]<
+[32:57.734] Recv: >1362259923059*details*frame[0].fugitiveWin<
+[32:57.734] Sent: >42*1362259923059*result*[object TiBaseWindow]<
+[32:58.186] Recv: >1362259923060*details*frame[0].tab2<
+[32:58.186] Sent: >33*1362259923060*result*[object Tab]<
+[32:59.435] Recv: >1362259923061*variables*frame[0].tab2<
+[32:59.439] Sent: >1728*1362259923061*children|Array|wo|[object Array]*visible|undefined|w|undefined*size|Object|wo|[object Object]*borderColor|undefined|w|undefined*backgroundDisabledColor|undefined|w|undefined*active|Boolean|w|false*backgroundSelectedColor|undefined|w|undefined*backgroundFocusedImage|undefined|w|undefined*_window|TiBaseWindow|wo|[object TiBaseWindow]*backgroundPadding|undefined|w|undefined*parent|null|w|null*borderRadius|undefined|w|undefined*titleid|undefined|w|undefined*height|undefined|w|undefined*right|undefined|w|undefined*width|undefined|w|undefined*enabled|undefined|w|undefined*_properties|Object|wo|[object Object]*bubbleParent|Boolean|w|true*center|undefined|w|undefined*accessibilityValue|undefined|w|undefined*left|undefined|w|undefined*_hasJavaListener|undefined|w|undefined*accessibilityLabel|undefined|w|undefined*keepScreenOn|Boolean|w|false*zIndex|undefined|w|undefined*backgroundGradient|undefined|w|undefined*borderWidth|undefined|w|undefined*accessibilityHint|undefined|w|undefined*backgroundSelect...709<
+[32:59.831] Recv: >1362259923062*details*frame[0].tab2<
+[32:59.831] Sent: >33*1362259923062*result*[object Tab]<
+[33:0.624] Recv: >1362259923063*details*frame[0].tab2<
+[33:0.624] Sent: >33*1362259923063*result*[object Tab]<
+[33:3.581] Recv: >*terminate<
+----------End of file----------

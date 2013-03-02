@@ -1,0 +1,11 @@
+function ApplicationWindow(/*boolean*/ _captured) {
+	
+	
+	
+	
+	
+	
+};
+
+
+module.exports = ApplicationWindow;

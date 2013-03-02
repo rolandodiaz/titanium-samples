@@ -1,0 +1,9 @@
+
+
+var BountyTableView = function(/*Boolean*/ _captured){
+	
+	
+};
+
+
+module.exports = BountyTableView;

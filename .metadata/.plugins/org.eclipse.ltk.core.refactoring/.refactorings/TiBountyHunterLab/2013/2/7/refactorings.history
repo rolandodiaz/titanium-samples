@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TiBountyHunterLab/i18n/ja&apos; to &apos;es&apos;" description="Rename resource &apos;ja&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="i18n/ja" name="es" stamp="1361050419101" updateReferences="true"/>
+</session>

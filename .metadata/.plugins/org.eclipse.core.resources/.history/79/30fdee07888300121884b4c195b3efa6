@@ -1,0 +1,21 @@
+
+
+
+var DetailWindow = function (/*object*/ _bounty, 
+	/*tab de referencia */ containingTab){
+		
+	var win = Ti.UI.createWindow({
+		title: _bounty.title,
+		barColor: '#6d0a0c',
+		backgroundColor: 'transparent',
+		backgroundImage: 'images/grain.png',
+		layout: 'vertical'
+	});
+		
+	win.add(Ti.UI.createLabel({
+		
+	});
+		
+};
+
+module.exports DetailWindow;
